@@ -1,4 +1,2 @@
 # Webhook
-Discord webhook sender
-Made in html and javascript
-Demo: http://fersec.pw/webhook/
+Send webhook messages using html, css, jquery and javascript
