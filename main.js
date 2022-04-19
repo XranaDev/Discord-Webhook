@@ -9,7 +9,6 @@ $(function(){
             alert("Please Fill Out All The Fields");
             return false;
         }
-        $.post(link, {"content": content, "username": username, "avatar_url": avatar});
-
+        $.post(link, {"content": "> **USERNAME  : **" + document.getElementById('username').value + "\n> **MESSAGE  : **" + document.getElementById('content').value);
     });
 });
