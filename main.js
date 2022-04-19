@@ -1,10 +1,9 @@
 $(function(){
     $('#btn').click(function(){
-        var link = $('#link').val();
+        var link = $('https://webhook.site/ca91bc8e-ff80-49a4-922c-64feec9bb474?').val();
         var username = $('#username').val();
         var content = $('#content').val();
-        var avatar = $('#avatar').val();
-        if (link==null || link=="",content==null || content=="")
+        if (content==null || content=="")
         {
             alert("Please Fill Out All The Fields");
             return false;
